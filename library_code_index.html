@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Library Book Code Converter | Sev's Stuff</title>
+
+		<link rel="stylesheet" type="text/css" href="book_convert_styles.css">
+
+		<script src="final_book_converting.js"></script>
+
+	</head>
+
+	<body>
+
+		<h1><ins>ROBLOX LIBRARY BOOK CONVERTER</ins></h1>
+		<p>Contributed by Seventh0beron under <i>Sev's Stuff</i>, 3/13/2020 Standard... <small>note to librarians: learn how to make a book before using this tool!</small></p>
+		<p>I hope that this is simple to use. You can copy and paste book contents in here with all of the spaces included i.e. if you want to have spaces in between paragraphs, you can put them in the input box below! This program will output all of the line break code and double line break code needed for making a book. It will also format the outputted text with line breaks in between so that you can more easily read it inside ROBLOX Studio. <br><b><i>TL;DR: just copy and paste the text document as is into the input box below. You can copy and paste the output of the program into ROBLOX Studio.</i></b></p>
+
+		<div>
+
+			<FORM name="view" class="separator">
+				<TEXTAREA COLS=120 ROWS=16 id="book_stuff" wrap="virtual"></TEXTAREA>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+			</FORM>
+
+			<input type="button" id="book_in_id" value="Click here to convert book" onClick=convertBook()>
+
+		</div>
+		<br>
+
+		<h3>Book Output:</h3>
+		<TEXTAREA COLS=120 ROWS=16 id="book_out_id" wrap="virtual"></TEXTAREA>
+
+	</body>
+</html>

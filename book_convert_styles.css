@@ -1,0 +1,30 @@
+/* CREATED BY PROXIMA M / Sev... */
+
+body {
+	background-image: url('library_convert_back.jpg');
+}
+
+h1, h3, p {
+	font-family: verdana;
+}
+
+h1 {
+	color: dodgerblue;
+}
+
+h3 {
+	color: midnightblue;
+}
+
+p {
+	font-size: 90%;
+	color: darkslateblue;
+}
+
+#book_in_id {
+	background-color: greenyellow;
+	font-family: verdana;
+	color: darkred;
+	padding: 2px;
+	cursor: pointer;
+}
